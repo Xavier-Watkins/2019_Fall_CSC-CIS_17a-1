@@ -58,7 +58,7 @@ int sizeResult(char n1[],char n2[]){
 }
 
 bool digitAdd(char n1,char n2,char &d,bool c){
-    int i1=n1-48,i2=n2-48;
+    int i1=n1-48,i2=n2-'0';
     int sum=i1+i2+c;
     d=sum%10+48;
     return sum/10;

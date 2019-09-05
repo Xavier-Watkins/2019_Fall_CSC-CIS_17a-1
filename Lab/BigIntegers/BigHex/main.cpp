@@ -16,8 +16,8 @@ bool numberAdd(char [],char [],char []);
 
 int main(int argc, char** argv) {
     //Create the test numbers using character arrays
-    char number1[]="0ABCDEF";
-    char number2[]="0123451";
+    char number1[]="0ABCDEF1234567890ABCDEF";
+    char number2[]="0123451AAAABBBBBCCCCDDD";
     char result[sizeResult(number1,number2)];
     //Add the numbers
     cout<<number1<<endl;
